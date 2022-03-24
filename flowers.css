@@ -73,6 +73,7 @@ a {
     text-align: center;
     display: flex;
     flex-flow: column;
+    align-items: center;
 }
 
 .flower span {
@@ -191,13 +192,14 @@ footer {
     }
 
     .flower {
-        width: 200px;
-        max-width: 70%;
+        width: auto;
+        max-width: 80%;
         margin: 1rem auto;
     }
 
     img {
         max-width: 80%;
     }
+    
 }
 

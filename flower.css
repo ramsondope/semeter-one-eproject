@@ -66,13 +66,15 @@ a {
     align-items: center;
     justify-content: center;
     margin: 6rem 4rem;
+    flex-wrap: wrap;
 }
 
-.img {
+.flower .img {
     flex: .5;
     max-height: 500px;
     max-width: 500px;
     align-self: flex-start;
+    min-width: 400px;
 }
 
 img {
@@ -207,6 +209,7 @@ h2 {
 
 .products {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 1.8rem;
@@ -320,10 +323,45 @@ footer {
         padding: 1rem;
     }
 
+    .description {
+        width: 60%;
+        display: flex;
+    }
+
     .cta {
         margin: auto;
     }
 
+    .cta__title {
+        font-size: 1.3rem;
+    }
+
+    .detail {
+        margin-left: 1rem;
+        width: 100%;
+    }
+
+    .related {
+        margin: 1rem;
+    }
+
+    .flower {
+        margin: 2rem;
+        flex-direction: column;
+    }
+
+    .flower .img {
+        min-width: 60%;
+    }
+
+    .product {
+        margin: 1rem auto;
+        max-width: 90%;
+    }
+
+    .detail .title h2 {
+        font-size: 1.4rem;
+    }
 
 }
 
