@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {scroll-behavior: smooth;}
+body {
+    width: 100%;
+}
+
+iframe {
+    height: 400px;
+    width: 100%;
+}
+
+/* h3 {
+    font-weight: 200;
+} */
+
+#nav-menu {
+    background: linear-gradient(90deg ,rgba(0,0,0,0.9), rgba(25,0,0,0.5)), url("https://as2.ftcdn.net/v2/jpg/01/87/09/45/1000_F_187094556_saxGxf4gQwb347WPkZEqeIFue6qAxPHf.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    margin: 2rem 2rem 1rem 0rem;
+    font-size: .9rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cta {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.cta__title {
+    font-size: 2.5rem;
+}
+
+.cta button {
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+}
+
+.plus {
+    display: flex;
+    justify-content: space-around;
+    margin: 7rem;
+    height: 200px;
+}
+
+.plus__div {
+    text-align: center;
+    width: 29%;
+    color: #777;
+}
+
+.plus__div h3 {
+    margin: 1rem 0;
+    font-weight: 200;
+}
+
+.popular {
+    background-color: #fff0e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    padding: 2.5rem;
+}
+
+.title h3 {
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+
+.popular__flowers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+
+.popular__flower {
+    width: 250px;
+    margin: 1rem;
+}
+.popular__flower img {
+    width: 100%;
+    margin-bottom: .6rem;
+}
+
+.popular__flower .name,
+.popular__flower .price
+{
+    text-align: center;
+    color: #777;
+}
+
+.popular__flower .name {
+    color: #222;
+    letter-spacing: 2px;
+}
+
+.geolocation {
+    display: flex;
+    background: #fdfdfd;
+}
+
+.location__details {
+    flex: .2;
+    margin: 2rem;
+}
+
+.location__details h3 {
+    margin: 1rem;
+}
+
+.location__details .address {
+    margin: 0 2rem;
+    line-height: 2rem;
+}
+
+.phone {
+    margin: 1.5rem 0;
+}
+
+iframe {
+    flex: .8;
+}
+
+
+
+.copyright {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: .9rem;
+    background: black;
+    padding: 1.5rem;
+    color: #999;
+}
+
+.copyright span {
+    padding-left: 4rem;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    height: 400px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem 8rem;
+}
+
+.entity {
+    flex-direction: column;
+    text-align: center;
+}
+
+.entity img{
+    display: flex;
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.container h3 {
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: #999;
+    font-weight: 200;
+}
+
+.customer h3:nth-child(1),
+.us h3:nth-child(1),
+.find__us h3:nth-child(1)
+ {
+    font-weight: 400;
+}
