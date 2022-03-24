@@ -306,6 +306,11 @@ footer {
     ul li {
         font-size: .6rem;
     }
+
+    ul {
+        flex-wrap: wrap;
+    }
+
     .products {
         flex-direction: column;
     }
@@ -315,4 +320,22 @@ footer {
         padding: 1rem;
     }
 
+    .cta {
+        margin: auto;
+    }
+
+
+}
+
+@media (max-width:840px) {
+
+    .container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    footer {
+        height: auto;
+    }
+    
 }
